@@ -6,8 +6,8 @@ name: Auto_Attendance_GitHub_Action
 on:
   push:
   schedule:
-    # 0:30 everyday   in UTC+8, 16:30 everyday in  UTC+0
-  - cron: '30 16 * * *'
+    # 01:30 everyday   in UTC+8, 17:30 everyday in  UTC+0
+  - cron: '30 17 * * *'
 
 jobs:
   build:
